@@ -1,0 +1,1268 @@
+
+{
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "home": {
+    "hero": {
+      "title": "Python Prep: From Scratch to Pro.",
+      "subtitle": "Your comprehensive, step-by-step guide to mastering the Python language. Structured lessons, interactive quizzes, and AI-powered feedback.",
+      "cta": "Start Your Learning Journey"
+    },
+    "why": {
+      "title": "Why Learn Python?",
+      "cards": {
+        "beginner": {
+          "title": "Beginner-Friendly",
+          "text": "Python’s simple, clean syntax makes it one of the easiest programming languages to learn."
+        },
+        "versatile": {
+          "title": "Extremely Versatile",
+          "text": "From web development and data science to AI and automation, Python can do it all."
+        },
+        "demand": {
+          "title": "High Demand",
+          "text": "Python developers are highly sought after in the job market, with competitive salaries."
+        }
+      }
+    },
+    "learn": {
+      "title": "What You'll Learn",
+      "more": "...and much more!"
+    },
+    "finalCta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Your first lesson is just one click away. Begin your journey to becoming a Python expert today.",
+      "cta": "Start Learning Now"
+    },
+    "footer": {
+      "rights": "Python Prep. All rights reserved.",
+      "designedBy": "Designed by <a href='https://www.linkedin.com/in/yehia-mohammed-1518a1222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline'>Engineer Yehia Mohammed</a>."
+    }
+  },
+  "sidebar": {
+    "loading": "Loading",
+    "yourProgress": "Your Progress",
+    "complete": "Complete",
+    "downloadCourse": "Download Course",
+    "description": "Description",
+    "content": "Lesson Content",
+    "codeExample": "Code Example",
+    "quiz": "Quiz"
+  },
+  "lesson": {
+    "playground": {
+      "title": "Code Playground",
+      "description": "Try out the concepts from this lesson. The code example is pre-filled for you."
+    },
+    "quiz": {
+      "title": "Quiz Time!",
+      "description": "Test your knowledge on this lesson."
+    }
+  },
+  "codeRunner": {
+    "placeholder": "Enter your Python code here",
+    "run": "Run Code",
+    "explain": "Explain Code",
+    "output": "Output",
+    "running": "Running code",
+    "explainingTitle": "AI is explaining...",
+    "explainingDesc": "Our AI teacher is generating an explanation for you.",
+    "explanationTitle": "AI Code Explanation"
+  },
+  "quiz": {
+    "incomplete": {
+      "title": "Incomplete Quiz",
+      "description": "Please answer all questions before submitting."
+    },
+    "submit": "Submit Quiz",
+    "results": {
+      "title": "Quiz Complete!",
+      "score": "You scored {score}%."
+    },
+    "feedback": {
+      "analyzing": "Analyzing your results...",
+      "generating": "Our AI is generating personalized feedback for you.",
+      "title": "Personalized Pacing Suggestion",
+      "suggestion": "Suggestion"
+    },
+    "tryAgain": "Try Again",
+    "nextLesson": "Next Lesson",
+    "courseComplete": "Congratulations! You have completed the course!"
+  },
+  "curriculum": [
+  {
+    "id": "1",
+    "title": "Introduction to Python",
+    "description": "Learn the basics of Python and why it's a popular language for beginners and experts alike.",
+    "content": [
+      "Python is a high-level, interpreted programming language known for its readability and simple syntax. This makes it an excellent choice for beginners.",
+      "It was created by Guido van Rossum and first released in 1991. Python's design philosophy emphasizes code readability with its notable use of significant whitespace.",
+      "You can use Python for web development, data science, artificial intelligence, and more. Let's start with a classic 'Hello, World!' example."
+    ],
+    "codeExample": "print(\"Hello, World!\")",
+    "quiz": [
+      {
+        "question": "Who created Python?",
+        "options": ["James Gosling", "Guido van Rossum", "Bjarne Stroustrup", "Dennis Ritchie"],
+        "correctAnswer": "Guido van Rossum"
+      },
+      {
+        "question": "What is the primary focus of Python's design philosophy?",
+        "options": ["Execution speed", "Code readability", "Memory management", "Complex syntax"],
+        "correctAnswer": "Code readability"
+      },
+      {
+        "question": "What does it mean for Python to be an 'interpreted' language?",
+        "options": ["Code is converted to machine code before running", "Code is run directly line-by-line by another program", "Code must be written in a specific editor", "Code can only be used for web development"],
+        "correctAnswer": "Code is run directly line-by-line by another program"
+      },
+      {
+        "question": "Which of the following is NOT a common use for Python?",
+        "options": ["Data Science", "Web Development", "Artificial Intelligence", "Styling web pages"],
+        "correctAnswer": "Styling web pages"
+      },
+      {
+        "question": "How do you write a single-line comment in Python?",
+        "options": ["// This is a comment", "/* This is a comment */", "# This is a comment", "<!-- This is a comment -->"],
+        "correctAnswer": "# This is a comment"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "2",
+    "title": "Variables and Data Types",
+    "description": "Understand how to store and manage data in Python using variables and different data types.",
+    "content": [
+      "In Python, a variable is created the moment you first assign a value to it. You don't need to declare the variable type explicitly.",
+      "Python has several built-in data types. The most common are: integers (`int`), floating-point numbers (`float`), strings (`str`), and booleans (`bool`).",
+      "For example, you can store a person's name and age in variables like this. The `type()` function can be used to check the data type of a variable."
+    ],
+    "codeExample": "name = \"Alice\"  # This is a string (str)\nage = 30       # This is an integer (int)\nheight = 5.5   # This is a float (float)\nis_student = True # This is a boolean (bool)\n\nprint(type(name))\nprint(type(age))",
+    "quiz": [
+      {
+        "question": "Which of the following is the correct way to assign a string to a variable?",
+        "options": ["string name = 'Bob'", "name = 'Bob'", "name := 'Bob'", "let name = 'Bob'"],
+        "correctAnswer": "name = 'Bob'"
+      },
+      {
+        "question": "What would `type(10.5)` return?",
+        "options": ["int", "string", "float", "double"],
+        "correctAnswer": "float"
+      },
+      {
+        "question": "What is a boolean data type?",
+        "options": ["A whole number", "A sequence of characters", "A number with a decimal point", "A value that is either True or False"],
+        "correctAnswer": "A value that is either True or False"
+      },
+      {
+        "question": "If you run `x = 5` and then `x = 'hello'`, what is the data type of `x`?",
+        "options": ["int", "str", "error", "bool"],
+        "correctAnswer": "str"
+      },
+      {
+        "question": "Variable names in Python can start with a number.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "3",
+    "title": "Control Flow: If/Else",
+    "description": "Learn how to make decisions in your code using conditional statements.",
+    "content": [
+      "Conditional statements allow your program to execute certain blocks of code only if a specific condition is met. The most common conditional statements are `if`, `elif` (else if), and `else`.",
+      "The `if` statement checks a condition. If it's `True`, the code block under it is executed. If it's `False`, the program moves to the next part.",
+      "You can chain multiple conditions with `elif`, and provide a default action with `else` for when none of the `if` or `elif` conditions are met."
+    ],
+    "codeExample": "age = 18\n\nif age < 13:\n    print(\"You are a child.\")\nelif age < 20:\n    print(\"You are a teenager.\")\nelse:\n    print(\"You are an adult.\")",
+    "quiz": [
+      {
+        "question": "What keyword is used for 'else if' conditions in Python?",
+        "options": ["elseif", "else if", "elif", "case"],
+        "correctAnswer": "elif"
+      },
+      {
+        "question": "In the example code, what would be printed if `age` was 25?",
+        "options": ["You are a child.", "You are a teenager.", "You are an adult.", "Nothing would be printed."],
+        "correctAnswer": "You are an adult."
+      },
+      {
+        "question": "Which of these operators checks for equality?",
+        "options": ["=", "==", "===", "!="],
+        "correctAnswer": "=="
+      },
+      {
+        "question": "Can an `if` statement exist without an `else` block?",
+        "options": ["Yes", "No"],
+        "correctAnswer": "Yes"
+      },
+      {
+        "question": "What is the purpose of the `else` statement?",
+        "options": ["To check an additional condition", "To run code if all previous conditions are false", "To end the program", "To define a variable"],
+        "correctAnswer": "To run code if all previous conditions are false"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "4",
+    "title": "Functions",
+    "description": "Discover how to write reusable blocks of code with functions.",
+    "content": [
+      "A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.",
+      "You define a function using the `def` keyword, followed by a function name and parentheses `()`.",
+      "A function can take arguments (data you pass into it) and can return data as a result using the `return` keyword."
+    ],
+    "codeExample": "# A function that takes two numbers and returns their sum\ndef add_numbers(x, y):\n    return x + y\n\n# Call the function and store the result\nresult = add_numbers(5, 3)\nprint(result)  # This will print 8",
+    "quiz": [
+      {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": ["function", "def", "fun", "define"],
+        "correctAnswer": "def"
+      },
+      {
+        "question": "What does the `return` keyword do in a function?",
+        "options": ["Prints a value to the console", "Stops the function execution", "Passes data back out of the function", "Defines the function's name"],
+        "correctAnswer": "Passes data back out of the function"
+      },
+      {
+        "question": "What are the values passed into a function called?",
+        "options": ["Parameters", "Variables", "Arguments", "Returns"],
+        "correctAnswer": "Arguments"
+      },
+      {
+        "question": "Can a function be called without being defined first?",
+        "options": ["Yes", "No"],
+        "correctAnswer": "No"
+      },
+      {
+        "question": "A function must always have a `return` statement.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "5",
+    "title": "Lists and Tuples",
+    "description": "Learn about Python's sequence data types: lists (mutable) and tuples (immutable).",
+    "content": [
+      "A list is a collection which is ordered and changeable. In Python, lists are written with square brackets `[]`.",
+      "You can access items by their index (starting from 0), change them, add new items with `append()`, and remove items with `remove()` or `pop()`.",
+      "A tuple is a collection which is ordered and unchangeable. In Python, tuples are written with round brackets `()`. Once a tuple is created, you cannot change its values."
+    ],
+    "codeExample": "# A list\nmy_list = [1, \"apple\", 3.14]\nmy_list.append(\"new item\")\nprint(my_list) # [1, 'apple', 3.14, 'new item']\nprint(my_list[1]) # 'apple'\n\n# A tuple\nmy_tuple = (1, \"apple\", 3.14)\nprint(my_tuple[0]) # 1",
+    "quiz": [
+      {
+        "question": "Which symbol is used to create a list?",
+        "options": ["()", "{}", "[]", "<>"],
+        "correctAnswer": "[]"
+      },
+      {
+        "question": "What is the main difference between a list and a tuple?",
+        "options": ["Lists are ordered, tuples are not", "Lists can hold any data type, tuples only hold numbers", "Lists are mutable, tuples are immutable", "Lists use indexes, tuples do not"],
+        "correctAnswer": "Lists are mutable, tuples are immutable"
+      },
+      {
+        "question": "How do you add an element to the end of a list called `my_list`?",
+        "options": ["my_list.add('new')", "my_list.append('new')", "my_list.insert('new')", "my_list.push('new')"],
+        "correctAnswer": "my_list.append('new')"
+      },
+      {
+        "question": "What is the index of the first element in a list or tuple?",
+        "options": ["1", "0", "-1", "A"],
+        "correctAnswer": "0"
+      },
+      {
+        "question": "If you try to change an element in a tuple, what happens?",
+        "options": ["The element is updated", "A new tuple is created", "You get a TypeError", "The element is removed"],
+        "correctAnswer": "You get a TypeError"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "6",
+    "title": "Dictionaries and Sets",
+    "description": "Explore dictionaries for key-value pairs and sets for unique elements.",
+    "content": [
+      "A dictionary is a collection which is ordered (in Python 3.7+), changeable, and does not allow duplicates. Dictionaries are written with curly brackets `{}`, and have keys and values.",
+      "You access items in a dictionary by referring to its key name, inside square brackets.",
+      "A set is a collection which is unordered, unchangeable (items cannot be changed), and unindexed. Sets also use curly brackets, but only contain values, not key-value pairs. They automatically remove duplicate entries."
+    ],
+    "codeExample": "# A dictionary\nmy_dict = {\n  \"brand\": \"Ford\",\n  \"model\": \"Mustang\",\n  \"year\": 1964\n}\nprint(my_dict[\"model\"]) # Mustang\n\n# A set\nmy_set = {\"apple\", \"banana\", \"cherry\", \"apple\"}\nprint(my_set) # {'cherry', 'banana', 'apple'}",
+    "quiz": [
+      {
+        "question": "How do you access the value associated with the key 'brand' in `my_dict`?",
+        "options": ["my_dict(brand)", "my_dict['brand']", "my_dict.get_brand()", "my_dict[0]"],
+        "correctAnswer": "my_dict['brand']"
+      },
+      {
+        "question": "What is a key characteristic of a set?",
+        "options": ["It keeps elements in a specific order", "It stores duplicate elements", "It stores only unique elements", "It uses key-value pairs"],
+        "correctAnswer": "It stores only unique elements"
+      },
+      {
+        "question": "Which data structure uses key-value pairs?",
+        "options": ["List", "Tuple", "Set", "Dictionary"],
+        "correctAnswer": "Dictionary"
+      },
+      {
+        "question": "Which symbol is used for both dictionaries and sets?",
+        "options": ["()", "[]", "{}", "<>"],
+        "correctAnswer": "{}"
+      },
+      {
+        "question": "Can you change an item in a set after it has been created?",
+        "options": ["Yes, using its index", "Yes, using the update() method", "No, set items are immutable", "No, but you can add and remove items"],
+        "correctAnswer": "No, but you can add and remove items"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "7",
+    "title": "For Loops",
+    "description": "Learn how to iterate over sequences like lists, tuples, and strings using for loops.",
+    "content": [
+      "A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).",
+      "With the for loop, we can execute a set of statements, once for each item in a list, tuple, set etc.",
+      "The `range()` function is often used with for loops to generate a sequence of numbers."
+    ],
+    "codeExample": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfor fruit in fruits:\n  print(fruit)\n\n# Using range()\nfor i in range(5): # This will loop from 0 to 4\n  print(i)",
+    "quiz": [
+      {
+        "question": "What is a for loop used for?",
+        "options": ["Making decisions", "Defining a function", "Iterating over a sequence", "Storing data"],
+        "correctAnswer": "Iterating over a sequence"
+      },
+      {
+        "question": "In `for x in my_list:`, what is `x`?",
+        "options": ["The index of the current item", "The list itself", "The current item in the sequence", "A counter"],
+        "correctAnswer": "The current item in the sequence"
+      },
+      {
+        "question": "What numbers will `range(1, 4)` produce?",
+        "options": ["1, 2, 3, 4", "1, 2, 3", "0, 1, 2, 3", "1, 4"],
+        "correctAnswer": "1, 2, 3"
+      },
+      {
+        "question": "How can you loop through the keys of a dictionary `my_dict`?",
+        "options": ["for key in my_dict.keys():", "for key in my_dict:", "Both of the above", "None of the above"],
+        "correctAnswer": "Both of the above"
+      },
+      {
+        "question": "Can you loop through a string?",
+        "options": ["Yes, character by character", "No, strings are not sequences", "Only if you convert it to a list first"],
+        "correctAnswer": "Yes, character by character"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "8",
+    "title": "While Loops",
+    "description": "Understand how to execute a block of code as long as a condition is true.",
+    "content": [
+      "With the while loop we can execute a set of statements as long as a condition is true.",
+      "It's important to have an 'exit condition' in your while loop, otherwise it will continue forever, creating an infinite loop.",
+      "The `break` statement can be used to stop the loop even if the while condition is true, and the `continue` statement can be used to stop the current iteration and continue with the next."
+    ],
+    "codeExample": "i = 1\nwhile i < 6:\n  print(i)\n  if i == 3:\n    break  # Exit the loop when i is 3\n  i += 1",
+    "quiz": [
+      {
+        "question": "When does a while loop stop?",
+        "options": ["After a fixed number of iterations", "When its condition becomes false", "When the program ends", "When a function is called"],
+        "correctAnswer": "When its condition becomes false"
+      },
+      {
+        "question": "What is an 'infinite loop'?",
+        "options": ["A loop that runs very slowly", "A loop that never ends because its condition always stays true", "A loop that uses a lot of memory", "A loop with an error"],
+        "correctAnswer": "A loop that never ends because its condition always stays true"
+      },
+      {
+        "question": "What does the `break` statement do inside a loop?",
+        "options": ["Skips the rest of the current iteration", "Exits the loop entirely", "Pauses the loop", "Restarts the loop"],
+        "correctAnswer": "Exits the loop entirely"
+      },
+      {
+        "question": "What does the `continue` statement do inside a loop?",
+        "options": ["Skips the rest of the current iteration and goes to the next one", "Exits the loop entirely", "Ends the program", "Continues from the beginning of the same iteration"],
+        "correctAnswer": "Skips the rest of the current iteration and goes to the next one"
+      },
+      {
+        "question": "What must you remember to include in a while loop to avoid an infinite loop?",
+        "options": ["A print statement", "A break statement", "A way to change the variable in the condition (e.g., i += 1)", "A return statement"],
+        "correctAnswer": "A way to change the variable in the condition (e.g., i += 1)"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "9",
+    "title": "String Manipulation",
+    "description": "Learn various methods to work with and format strings.",
+    "content": [
+      "Python has a rich set of built-in methods that you can use on strings. Since strings are immutable, these methods return new strings and do not modify the original.",
+      "Common methods include `upper()`, `lower()`, `strip()` (to remove whitespace), `replace()`, and `split()` (to create a list from a string).",
+      "F-strings (formatted string literals) are a powerful and convenient way to embed expressions inside string literals for formatting."
+    ],
+    "codeExample": "my_string = \"  Hello, World!  \"\n\n# Common methods\nprint(my_string.upper()) # \"  HELLO, WORLD!  \"\nprint(my_string.strip()) # \"Hello, World!\"\nprint(my_string.replace(\"World\", \"Python\")) # \"  Hello, Python!  \"\n\n# F-string formatting\nname = \"Yehia\"\nage = 25\nprint(f\"My name is {name} and I am {age} years old.\")",
+    "quiz": [
+      {
+        "question": "Which method converts a string to all uppercase letters?",
+        "options": ["capitalize()", "upper()", "to_upper()", "uppercase()"],
+        "correctAnswer": "upper()"
+      },
+      {
+        "question": "What does the `strip()` method do?",
+        "options": ["Removes all characters from a string", "Removes leading and trailing whitespace", "Splits the string into a list", "Replaces a character"],
+        "correctAnswer": "Removes leading and trailing whitespace"
+      },
+      {
+        "question": "If `s = 'abc'`, does `s.upper()` change the value of `s`?",
+        "options": ["Yes, s becomes 'ABC'", "No, it returns a new string 'ABC' but s remains 'abc'"],
+        "correctAnswer": "No, it returns a new string 'ABC' but s remains 'abc'"
+      },
+      {
+        "question": "How do you start an f-string?",
+        "options": ["With 'f' before the opening quote", "With 'fmt' before the opening quote", "With '%' inside the string", "With .format() at the end"],
+        "correctAnswer": "With 'f' before the opening quote"
+      },
+      {
+        "question": "What does `split(',')` do to a string?",
+        "options": ["Joins the string with commas", "Removes all commas", "Splits the string into a list of substrings at each comma", "Finds the index of the first comma"],
+        "correctAnswer": "Splits the string into a list of substrings at each comma"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "10",
+    "title": "Working with Files",
+    "description": "Learn to read from and write to files on your computer.",
+    "content": [
+      "Python provides easy-to-use functions for creating, reading, and writing files.",
+      "The `open()` function is the key to working with files. It takes two arguments: the filename and the mode (`'r'` for read, `'w'` for write, `'a'` for append).",
+      "It is good practice to use the `with` statement when dealing with file objects. This has the advantage that the file is properly closed after its suite finishes, even if an error is raised."
+    ],
+    "codeExample": "# Write to a file (creates the file if it doesn't exist)\nwith open(\"myfile.txt\", \"w\") as f:\n    f.write(\"Hello from Python!\\n\")\n    f.write(\"This is a new line.\\n\")\n\n# Read from a file\nwith open(\"myfile.txt\", \"r\") as f:\n    content = f.read()\n    print(content)",
+    "quiz": [
+      {
+        "question": "What is the mode for opening a file for writing?",
+        "options": ["'r'", "'x'", "'w'", "'a'"],
+        "correctAnswer": "'w'"
+      },
+      {
+        "question": "Why is using the `with open(...)` syntax recommended?",
+        "options": ["It runs faster", "It automatically closes the file", "It can open any file type", "It encrypts the file"],
+        "correctAnswer": "It automatically closes the file"
+      },
+      {
+        "question": "What does opening a file in append mode (`'a'`) do?",
+        "options": ["Deletes the file", "Reads the file", "Overwrites the file's content", "Adds new content to the end of the file"],
+        "correctAnswer": "Adds new content to the end of the file"
+      },
+      {
+        "question": "Which function reads the entire content of a file into a single string?",
+        "options": ["read()", "readline()", "readlines()", "get_content()"],
+        "correctAnswer": "read()"
+      },
+      {
+        "question": "If you open an existing file in write mode (`'w'`), what happens to its original content?",
+        "options": ["The new content is added to the end", "An error occurs", "The original content is erased", "The original content is moved to a backup file"],
+        "correctAnswer": "The original content is erased"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "11",
+    "title": "Exception Handling",
+    "description": "Learn how to handle errors gracefully using try...except blocks.",
+    "content": [
+      "Errors detected during execution are called exceptions. If not handled, they will stop your program.",
+      "The `try` block lets you test a block of code for errors.",
+      "The `except` block lets you handle the error. You can specify different handlers for different exception types.",
+      "The `finally` block lets you execute code, regardless of the result of the try-and-except blocks."
+    ],
+    "codeExample": "try:\n  x = 10 / 0\nexcept ZeroDivisionError:\n  print(\"Error: Cannot divide by zero!\")\nexcept TypeError:\n  print(\"Error: Incorrect data type used.\")\nfinally:\n  print(\"This will always execute.\")",
+    "quiz": [
+      {
+        "question": "Which block contains the code that might cause an exception?",
+        "options": ["except", "finally", "try", "if"],
+        "correctAnswer": "try"
+      },
+      {
+        "question": "What is the purpose of the `finally` block?",
+        "options": ["To handle the error", "To cause an error", "To execute code whether an error occurs or not", "To report the error to the user"],
+        "correctAnswer": "To execute code whether an error occurs or not"
+      },
+      {
+        "question": "What kind of error does dividing by zero raise?",
+        "options": ["TypeError", "ValueError", "ZeroDivisionError", "SyntaxError"],
+        "correctAnswer": "ZeroDivisionError"
+      },
+      {
+        "question": "Can you have multiple `except` blocks for one `try` block?",
+        "options": ["No, only one is allowed", "Yes, to handle different types of exceptions"],
+        "correctAnswer": "Yes, to handle different types of exceptions"
+      },
+      {
+        "question": "What happens if an exception occurs and there is no `except` block to handle it?",
+        "options": ["The program continues as normal", "The program crashes and displays an error message", "The program silently ignores the error", "The program asks the user what to do"],
+        "correctAnswer": "The program crashes and displays an error message"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "12",
+    "title": "Introduction to OOP",
+    "description": "Understand the fundamental concepts of Object-Oriented Programming (OOP).",
+    "content": [
+      "Object-Oriented Programming (OOP) is a programming paradigm based on the concept of 'objects', which can contain data and code.",
+      "The main concepts of OOP are: Encapsulation, Abstraction, Inheritance, and Polymorphism.",
+      "A Class is like a blueprint for creating objects. An Object is an instance of a class. Think of a 'Car' class as the blueprint, and your specific car as an object (an instance) of that class."
+    ],
+    "codeExample": "# This is just a conceptual example. We'll define a class in the next lesson.\nclass Car:\n  # Attributes (data) and methods (code) go here\n  pass\n\n# Creating objects (instances) of the Car class\nmy_car = Car()\nyour_car = Car()",
+    "quiz": [
+      {
+        "question": "What is a 'class' in OOP?",
+        "options": ["A piece of data", "A function", "A blueprint for creating objects", "An object itself"],
+        "correctAnswer": "A blueprint for creating objects"
+      },
+      {
+        "question": "What is an 'object' in OOP?",
+        "options": ["A type of variable", "An instance of a class", "A programming paradigm", "A file"],
+        "correctAnswer": "An instance of a class"
+      },
+      {
+        "question": "Which of the following is NOT a core concept of OOP?",
+        "options": ["Inheritance", "Polymorphism", "Encapsulation", "Iteration"],
+        "correctAnswer": "Iteration"
+      },
+      {
+        "question": "The concept of bundling data and methods that work on that data within one unit is called...?",
+        "options": ["Inheritance", "Abstraction", "Encapsulation", "Polymorphism"],
+        "correctAnswer": "Encapsulation"
+      },
+      {
+        "question": "The ability of an object to take on many forms is known as...?",
+        "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"],
+        "correctAnswer": "Polymorphism"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "13",
+    "title": "Classes and Objects",
+    "description": "Learn how to define your own classes and create objects in Python.",
+    "content": [
+      "To create a class, use the keyword `class`.",
+      "All classes have a function called `__init__()`, which is always executed when the class is being initiated. Use it to assign values to object properties.",
+      "Objects can also contain methods. Methods in objects are functions that belong to the object."
+    ],
+    "codeExample": "class Dog:\n  # The __init__ method is the constructor\n  def __init__(self, name, age):\n    self.name = name  # Instance attribute\n    self.age = age    # Instance attribute\n\n  # A method\n  def bark(self):\n    return f\"{self.name} says woof!\"\n\n# Create a Dog object\nmy_dog = Dog(\"Fido\", 5)\n\nprint(my_dog.name)\nprint(my_dog.bark())",
+    "quiz": [
+      {
+        "question": "What is the name of the constructor method in a Python class?",
+        "options": ["__main__", "__construct__", "__init__", "__setup__"],
+        "correctAnswer": "__init__"
+      },
+      {
+        "question": "What does the `self` parameter refer to?",
+        "options": ["The class itself", "The current instance of the class", "A global variable", "The parent class"],
+        "correctAnswer": "The current instance of the class"
+      },
+      {
+        "question": "How do you create an instance of a class named `Cat`?",
+        "options": ["my_cat = Cat", "my_cat = new Cat()", "my_cat = Cat()", "create Cat() as my_cat"],
+        "correctAnswer": "my_cat = Cat()"
+      },
+      {
+        "question": "Variables that belong to an instance are called...",
+        "options": ["Class attributes", "Global attributes", "Instance attributes", "Static attributes"],
+        "correctAnswer": "Instance attributes"
+      },
+      {
+        "question": "Functions defined inside a class are called...",
+        "options": ["Procedures", "Methods", "Definitions", "Lambdas"],
+        "correctAnswer": "Methods"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "14",
+    "title": "Inheritance and Polymorphism",
+    "description": "Learn how to create new classes from existing ones and how objects can share behaviors.",
+    "content": [
+      "Inheritance allows us to define a class that inherits all the methods and properties from another class.",
+      "The parent class is the class being inherited from, also called the base class. The child class is the class that inherits from another class, also called the derived class.",
+      "Polymorphism means 'many forms', and it refers to the ability of different classes to be treated as instances of the same class through inheritance. It allows for methods to do different things based on the object it is acting upon."
+    ],
+    "codeExample": "# Parent class\nclass Animal:\n  def speak(self):\n    return \"Some animal sound\"\n\n# Child class inheriting from Animal\nclass Cat(Animal):\n  def speak(self): # Method overriding\n    return \"Meow\"\n\n# Another child class\nclass Dog(Animal):\n  def speak(self): # Method overriding\n    return \"Woof\"\n\ncat = Cat()\ndog = Dog()\nprint(cat.speak()) # Prints \"Meow\"\nprint(dog.speak()) # Prints \"Woof\"",
+    "quiz": [
+      {
+        "question": "What is the primary benefit of inheritance?",
+        "options": ["Faster code", "Code reuse", "Simpler syntax", "Better memory management"],
+        "correctAnswer": "Code reuse"
+      },
+      {
+        "question": "How do you indicate that a class `Child` inherits from `Parent`?",
+        "options": ["class Child(Parent):", "class Child inherits Parent:", "class Child extends Parent:", "class Child < Parent:"],
+        "correctAnswer": "class Child(Parent):"
+      },
+      {
+        "question": "When a child class provides its own implementation of a method that is already defined in its parent class, it's called...?",
+        "options": ["Method overloading", "Method overriding", "Method hiding", "Method copying"],
+        "correctAnswer": "Method overriding"
+      },
+      {
+        "question": "The concept demonstrated by `cat.speak()` and `dog.speak()` returning different results is...?",
+        "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction"],
+        "correctAnswer": "Polymorphism"
+      },
+      {
+        "question": "A class that is inherited from is called a...",
+        "options": ["Child class", "Derived class", "Subclass", "Parent class (or Base class)"],
+        "correctAnswer": "Parent class (or Base class)"
+      }
+    ],
+    "pacing": "fast"
+  },
+  {
+    "id": "15",
+    "title": "Modules and Packages",
+    "description": "Learn how to organize your code into modules and packages.",
+    "content": [
+      "A module is simply a file containing Python code. You can use the `import` statement to use the code from one module in another.",
+      "Python comes with a huge library of standard modules you can use, such as `math` for mathematical functions or `datetime` for working with dates.",
+      "A package is a way of structuring Python's module namespace by using 'dotted module names'. A package is a directory of Python modules containing an `__init__.py` file."
+    ],
+    "codeExample": "# Import the entire math module\nimport math\nprint(math.pi)\n\n# Import a specific function from the datetime module\nfrom datetime import date\ntoday = date.today()\nprint(today)\n\n# You can also give an imported module an alias\nimport math as m\nprint(m.sqrt(16))",
+    "quiz": [
+      {
+        "question": "What is a Python module?",
+        "options": ["A built-in function", "A Python file containing code", "A folder of scripts", "A type of class"],
+        "correctAnswer": "A Python file containing code"
+      },
+      {
+        "question": "Which keyword is used to bring a module's code into your current script?",
+        "options": ["include", "use", "import", "load"],
+        "correctAnswer": "import"
+      },
+      {
+        "question": "How would you import only the `pi` constant from the `math` module?",
+        "options": ["import math.pi", "from math import pi", "import pi from math", "using math.pi"],
+        "correctAnswer": "from math import pi"
+      },
+      {
+        "question": "What is a collection of modules in a directory called?",
+        "options": ["Library", "Suite", "Package", "Set"],
+        "correctAnswer": "Package"
+      },
+      {
+        "question": "What is the purpose of `import math as m`?",
+        "options": ["To create a copy of the math module", "To give the math module a shorter alias, `m`", "To import a module named 'm'", "To run the math module's main function"],
+        "correctAnswer": "To give the math module a shorter alias, `m`"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "16",
+    "title": "The Python Standard Library",
+    "description": "Explore some of the most useful modules included with Python.",
+    "content": [
+      "Python's Standard Library is a vast collection of modules that come with every standard Python installation.",
+      "You don't need to install them separately. You just need to import them.",
+      "Some essential modules include `os` for interacting with the operating system, `sys` for system-specific parameters, `random` for generating random numbers, and `json` for working with JSON data."
+    ],
+    "codeExample": "import random\nimport os\n\n# Generate a random integer between 1 and 10\nrandom_number = random.randint(1, 10)\nprint(f\"Random number: {random_number}\")\n\n# Get the current working directory\ncurrent_directory = os.getcwd()\nprint(f\"Current directory: {current_directory}\")",
+    "quiz": [
+      {
+        "question": "Which module would you use to get the current directory?",
+        "options": ["sys", "os", "path", "system"],
+        "correctAnswer": "os"
+      },
+      {
+        "question": "To generate a random floating point number between 0.0 and 1.0, you would use...",
+        "options": ["random.randint(0, 1)", "random.random()", "random.float()", "random.uniform(0, 1)"],
+        "correctAnswer": "random.random()"
+      },
+      {
+        "question": "Do you need to install modules from the Standard Library using pip?",
+        "options": ["Yes, always", "No, they come with Python", "Only on Windows", "Only on Mac"],
+        "correctAnswer": "No, they come with Python"
+      },
+      {
+        "question": "The `json` module is used for...",
+        "options": ["Working with JavaScript code", "Creating user interfaces", "Parsing and generating JSON data", "Mathematical operations"],
+        "correctAnswer": "Parsing and generating JSON data"
+      },
+      {
+        "question": "Which module provides access to system-specific parameters and functions?",
+        "options": ["os", "sys", "system", "platform"],
+        "correctAnswer": "sys"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "17",
+    "title": "List Comprehensions",
+    "description": "Learn a concise way to create lists.",
+    "content": [
+      "List comprehensions provide a shorter syntax for creating a new list based on the values of an existing list.",
+      "They consist of brackets containing an expression followed by a `for` clause, then zero or more `for` or `if` clauses.",
+      "This can often make your code more readable and expressive compared to using a traditional for loop to build a list."
+    ],
+    "codeExample": "# Traditional way\nsquares = []\nfor x in range(10):\n  squares.append(x**2)\nprint(squares)\n\n# List comprehension way\nsquares_comp = [x**2 for x in range(10)]\nprint(squares_comp)\n\n# With a condition\neven_squares = [x**2 for x in range(10) if x % 2 == 0]\nprint(even_squares)",
+    "quiz": [
+      {
+        "question": "What is the main benefit of list comprehensions?",
+        "options": ["They run faster", "They offer a more concise and readable syntax for creating lists", "They can do things for loops cannot", "They use less memory"],
+        "correctAnswer": "They offer a more concise and readable syntax for creating lists"
+      },
+      {
+        "question": "Which of these is a valid list comprehension?",
+        "options": ["(x for x in range(5))", "[x for x in range(5)]", "{x for x in range(5)}", "list(x for x in range(5))"],
+        "correctAnswer": "[x for x in range(5)]"
+      },
+      {
+        "question": "How would you create a list of all the uppercase letters in a string `s`?",
+        "options": ["[char.upper() for char in s]", "[char for char in s if char.isupper()]", "{char for char in s if char.isupper()}", "[char.upper() if char.islower() for char in s]"],
+        "correctAnswer": "[char for char in s if char.isupper()]"
+      },
+      {
+        "question": "Can you include an `if` condition in a list comprehension?",
+        "options": ["No, only for loops are allowed", "Yes, to filter elements", "Yes, but only at the beginning", "No, that requires a lambda function"],
+        "correctAnswer": "Yes, to filter elements"
+      },
+      {
+        "question": "What does `[num * 2 for num in [1, 2, 3]]` evaluate to?",
+        "options": ["[1, 2, 3]", "[1, 4, 9]", "[2, 4, 6]", "[2, 2, 2]"],
+        "correctAnswer": "[2, 4, 6]"
+      }
+    ],
+    "pacing": "fast"
+  },
+  {
+    "id": "18",
+    "title": "Lambda Functions",
+    "description": "Learn to create small, anonymous functions on the fly.",
+    "content": [
+      "A lambda function is a small anonymous function.",
+      "A lambda function can take any number of arguments, but can only have one expression.",
+      "They are best used when you need a small function for a short period, often as an argument to a higher-order function like `map()` or `filter()`."
+    ],
+    "codeExample": "# A normal function\ndef double(n):\n  return n * 2\n\n# The equivalent lambda function\ndouble_lambda = lambda n: n * 2\n\nprint(double(5))\nprint(double_lambda(5))\n\n# Using a lambda with other functions\nmy_list = [1, 2, 3, 4]\ndoubled_list = list(map(lambda x: x * 2, my_list))\nprint(doubled_list)",
+    "quiz": [
+      {
+        "question": "What keyword is used to create a lambda function?",
+        "options": ["def", "anon", "lambda", "function"],
+        "correctAnswer": "lambda"
+      },
+      {
+        "question": "What is a key limitation of lambda functions?",
+        "options": ["They can only have one argument", "They cannot be stored in a variable", "They can only contain a single expression", "They cannot be used with lists"],
+        "correctAnswer": "They can only contain a single expression"
+      },
+      {
+        "question": "What is an 'anonymous' function?",
+        "options": ["A function that is secret", "A function with no name", "A function that is not safe", "A function that returns nothing"],
+        "correctAnswer": "A function with no name"
+      },
+      {
+        "question": "Which of these is a valid lambda function that adds two numbers?",
+        "options": ["lambda a, b: return a + b", "lambda a, b: a + b", "lambda (a, b): a + b", "def lambda(a, b): a + b"],
+        "correctAnswer": "lambda a, b: a + b"
+      },
+      {
+        "question": "When are lambda functions most commonly used?",
+        "options": ["As standalone functions", "To define class methods", "As arguments to higher-order functions", "For file I/O"],
+        "correctAnswer": "As arguments to higher-order functions"
+      }
+    ],
+    "pacing": "fast"
+  },
+  {
+    "id": "19",
+    "title": "Map, Filter, and Reduce",
+    "description": "Learn about powerful built-in functions for working with iterables.",
+    "content": [
+      "The `map()` function executes a specified function for each item in an iterable. The item is sent to the function as a parameter.",
+      "The `filter()` function returns an iterator where the items are filtered through a function to test if the item is accepted or not.",
+      "The `reduce()` function performs a rolling computation to a sequential pair of values in a list. It is part of the `functools` module."
+    ],
+    "codeExample": "from functools import reduce\n\nnumbers = [1, 2, 3, 4, 5]\n\n# Map: Apply a function to every item\ndoubled = map(lambda x: x * 2, numbers)\nprint(list(doubled)) # [2, 4, 6, 8, 10]\n\n# Filter: Keep items for which a function returns true\nevens = filter(lambda x: x % 2 == 0, numbers)\nprint(list(evens)) # [2, 4]\n\n# Reduce: Roll up a list into a single value\nsum_of_all = reduce(lambda x, y: x + y, numbers)\nprint(sum_of_all) # 15",
+    "quiz": [
+      {
+        "question": "Which function would you use to apply the same operation to every element in a list?",
+        "options": ["filter", "reduce", "map", "apply"],
+        "correctAnswer": "map"
+      },
+      {
+        "question": "Which function would you use to create a new list containing only the elements that satisfy a certain condition?",
+        "options": ["filter", "reduce", "map", "select"],
+        "correctAnswer": "filter"
+      },
+      {
+        "question": "Which module contains the `reduce` function?",
+        "options": ["itertools", "collections", "functools", "math"],
+        "correctAnswer": "functools"
+      },
+      {
+        "question": "The function passed to `filter()` must return...",
+        "options": ["A number", "A string", "A boolean value (True or False)", "A list"],
+        "correctAnswer": "A boolean value (True or False)"
+      },
+      {
+        "question": "What is the result of `reduce(lambda x, y: x + y, [1, 2, 3])`?",
+        "options": ["3", "5", "6", "An error"],
+        "correctAnswer": "6"
+      }
+    ],
+    "pacing": "fast"
+  },
+  {
+    "id": "20",
+    "title": "Decorators",
+    "description": "Learn how to modify or enhance functions without changing their code.",
+    "content": [
+      "Decorators are a powerful and flexible feature in Python that allow you to add functionality to an existing function or method without modifying its source code.",
+      "A decorator is a function that takes another function as an argument, adds some kind of functionality, and then returns another function.",
+      "You apply a decorator to a function using the `@` symbol followed by the decorator's name, placed directly above the function definition."
+    ],
+    "codeExample": "def my_decorator(func):\n    def wrapper():\n        print(\"Something is happening before the function is called.\")\n        func()\n        print(\"Something is happening after the function is called.\")\n    return wrapper\n\n@my_decorator\ndef say_hello():\n    print(\"Hello!\")\n\nsay_hello()",
+    "quiz": [
+      {
+        "question": "What is a decorator in Python?",
+        "options": ["A type of class", "A function that modifies another function", "A syntax for comments", "A way to style code"],
+        "correctAnswer": "A function that modifies another function"
+      },
+      {
+        "question": "What symbol is used to apply a decorator?",
+        "options": ["#", "$", "&", "@"],
+        "correctAnswer": "@"
+      },
+      {
+        "question": "What does a decorator function typically return?",
+        "options": ["The original function, unmodified", "A new function (a wrapper)", "A boolean value", "Nothing"],
+        "correctAnswer": "A new function (a wrapper)"
+      },
+      {
+        "question": "Can you apply multiple decorators to a single function?",
+        "options": ["No, only one is allowed", "Yes, they are applied from bottom to top"],
+        "correctAnswer": "Yes, they are applied from bottom to top"
+      },
+      {
+        "question": "A common use case for decorators is...",
+        "options": ["Mathematical calculations", "Logging or timing function execution", "Storing data", "Defining variables"],
+        "correctAnswer": "Logging or timing function execution"
+      }
+    ],
+    "pacing": "fast"
+  },
+  {
+    "id": "21",
+    "title": "Generators",
+    "description": "Learn to create iterators in a simple, memory-efficient way.",
+    "content": [
+      "Generators are a simple way to create iterators. They are functions that use the `yield` keyword to return a sequence of values, one at a time.",
+      "Unlike normal functions that compute a value and return it, generators 'yield' values. Each time you call `next()` on a generator, it resumes execution from where it last left off.",
+      "This is very memory-efficient for working with large data sets, as it doesn't store all the values in memory at once."
+    ],
+    "codeExample": "# A generator function\ndef countdown(num):\n    print(\"Starting\")\n    while num > 0:\n        yield num\n        num -= 1\n\n# Create a generator object\ngen = countdown(3)\n\nprint(next(gen)) # Prints Starting, then 3\nprint(next(gen)) # Prints 2\nprint(next(gen)) # Prints 1",
+    "quiz": [
+      {
+        "question": "What keyword is used in a generator function to produce a value?",
+        "options": ["return", "generate", "yield", "produce"],
+        "correctAnswer": "yield"
+      },
+      {
+        "question": "What is the main advantage of using generators?",
+        "options": ["They are faster than regular functions", "They are memory-efficient", "They are easier to write", "They can be used as decorators"],
+        "correctAnswer": "They are memory-efficient"
+      },
+      {
+        "question": "What happens when a generator function is called?",
+        "options": ["It executes the entire function and returns a list", "It returns a generator object", "It immediately raises an error", "It prints all values to the console"],
+        "correctAnswer": "It returns a generator object"
+      },
+      {
+        "question": "How do you get the next value from a generator `gen`?",
+        "options": ["gen.next()", "next(gen)", "gen.get()", "gen.yield()"],
+        "correctAnswer": "next(gen)"
+      },
+      {
+        "question": "What happens when a generator has yielded all its values and you call `next()` on it again?",
+        "options": ["It starts over from the beginning", "It raises a StopIteration exception", "It returns None", "It waits for more data"],
+        "correctAnswer": "It raises a StopIteration exception"
+      }
+    ],
+    "pacing": "fast"
+  },
+  {
+    "id": "22",
+    "title": "Working with JSON",
+    "description": "Learn to parse and create JSON data, a common format for data exchange.",
+    "content": [
+      "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write and easy for machines to parse and generate.",
+      "Python has a built-in package called `json`, which can be used to work with JSON data.",
+      "The `json.loads()` method is used to parse a JSON string into a Python dictionary. The `json.dumps()` method is used to convert a Python dictionary into a JSON string."
+    ],
+    "codeExample": "import json\n\n# A Python dictionary\nperson_dict = {'name': 'Yehia', 'age': 30, 'city': 'New York'}\n\n# Convert dictionary to JSON string\njson_string = json.dumps(person_dict, indent=4)\nprint(\"JSON String:\")\nprint(json_string)\n\n# Convert JSON string back to dictionary\nparsed_dict = json.loads(json_string)\nprint(\"\\nParsed Dictionary:\")\nprint(parsed_dict['name'])",
+    "quiz": [
+      {
+        "question": "What does JSON stand for?",
+        "options": ["Java Standard Object Notation", "JavaScript Object Notation", "JavaScript Ordered Notation", "Java Source Object Notation"],
+        "correctAnswer": "JavaScript Object Notation"
+      },
+      {
+        "question": "Which `json` method converts a Python dictionary to a JSON string?",
+        "options": ["json.load()", "json.loads()", "json.dump()", "json.dumps()"],
+        "correctAnswer": "json.dumps()"
+      },
+      {
+        "question": "Which `json` method parses a JSON string into a Python object?",
+        "options": ["json.load()", "json.loads()", "json.dump()", "json.dumps()"],
+        "correctAnswer": "json.loads()"
+      },
+      {
+        "question": "What Python data type does a JSON object typically map to?",
+        "options": ["List", "Tuple", "Dictionary", "Set"],
+        "correctAnswer": "Dictionary"
+      },
+      {
+        "question": "In `json.dumps(data, indent=4)`, what is the purpose of `indent=4`?",
+        "options": ["It makes the JSON string more compact", "It adds 4 spaces of indentation for pretty-printing", "It encrypts the data 4 times", "It limits the depth of the JSON to 4 levels"],
+        "correctAnswer": "It adds 4 spaces of indentation for pretty-printing"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "23",
+    "title": "Introduction to APIs",
+    "description": "Understand what APIs are and how to interact with them using Python.",
+    "content": [
+      "API stands for Application Programming Interface. It is a set of rules that allows different software applications to communicate with each other.",
+      "Web APIs are very common. They allow you to get data from other services, like weather information, social media posts, or stock prices.",
+      "The `requests` library is the most popular way to make HTTP requests to APIs in Python. You can make GET requests to retrieve data and POST requests to send data."
+    ],
+    "codeExample": "import requests\nimport json\n\n# Make a GET request to a public API\nresponse = requests.get(\"https://api.publicapis.org/random\")\n\n# Check if the request was successful\nif response.status_code == 200:\n    # Parse the JSON response\n    data = response.json()\n    print(json.dumps(data, indent=2))\nelse:\n    print(f\"Failed to get data. Status code: {response.status_code}\")",
+    "quiz": [
+      {
+        "question": "What does API stand for?",
+        "options": ["Application Protocol Interface", "Application Programming Interface", "Advanced Programming Interlink", "Application Protocol Instance"],
+        "correctAnswer": "Application Programming Interface"
+      },
+      {
+        "question": "Which library is commonly used to make HTTP requests in Python?",
+        "options": ["http", "urllib", "requests", "web"],
+        "correctAnswer": "requests"
+      },
+      {
+        "question": "What HTTP status code indicates a successful request?",
+        "options": ["200", "404", "500", "301"],
+        "correctAnswer": "200"
+      },
+      {
+        "question": "Which HTTP method is typically used to retrieve data from an API?",
+        "options": ["POST", "GET", "DELETE", "PUT"],
+        "correctAnswer": "GET"
+      },
+      {
+        "question": "After getting a response from `requests.get()`, which method is used to parse the JSON content?",
+        "options": ["response.text", "response.content", "response.json()", "response.parse()"],
+        "correctAnswer": "response.json()"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "24",
+    "title": "Basic Web Scraping",
+    "description": "Learn to extract data from websites using Requests and BeautifulSoup.",
+    "content": [
+      "Web scraping is the process of automatically extracting data from websites. It's useful when a website doesn't provide an API.",
+      "The `requests` library is used to download the HTML content of a webpage.",
+      "The `BeautifulSoup` library is used to parse the HTML and make it easy to navigate and search for the data you want. You can select elements by their HTML tags, classes, or IDs."
+    ],
+    "codeExample": "# NOTE: You would need to install these libraries first:\n# pip install requests beautifulsoup4\nimport requests\nfrom bs4 import BeautifulSoup\n\n# This is a conceptual example. Scraping a real site requires inspection.\n# URL = \"http://example.com\"\n# response = requests.get(URL)\n# soup = BeautifulSoup(response.content, 'html.parser')\n\n# Find an element by its tag name\n# title = soup.find('h1').text\n# print(title)\nprint(\"Web scraping requires third-party libraries like requests and beautifulsoup4.\")",
+    "quiz": [
+      {
+        "question": "What is web scraping?",
+        "options": ["Designing websites", "Automatically extracting data from websites", "Securing websites", "Testing website speed"],
+        "correctAnswer": "Automatically extracting data from websites"
+      },
+      {
+        "question": "Which library is used to parse HTML content?",
+        "options": ["requests", "json", "BeautifulSoup", "os"],
+        "correctAnswer": "BeautifulSoup"
+      },
+      {
+        "question": "Which library is used to download the webpage's HTML?",
+        "options": ["requests", "bs4", "parser", "html"],
+        "correctAnswer": "requests"
+      },
+      {
+        "question": "How do you initialize BeautifulSoup with HTML content?",
+        "options": ["soup = BeautifulSoup('html.parser', response.content)", "soup = BeautifulSoup(response.content, 'html.parser')", "soup = new BeautifulSoup(response.content)", "soup.parse(response.content)"],
+        "correctAnswer": "soup = BeautifulSoup(response.content, 'html.parser')"
+      },
+      {
+        "question": "Is it always okay to scrape any website?",
+        "options": ["Yes, all data on the internet is free", "No, you should always check a website's terms of service and `robots.txt` file first"],
+        "correctAnswer": "No, you should always check a website's terms of service and `robots.txt` file first"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "25",
+    "title": "Virtual Environments and pip",
+    "description": "Learn to manage project dependencies with virtual environments and the pip package manager.",
+    "content": [
+      "As you work on more Python projects, you'll find that different projects may require different versions of the same library. This can cause conflicts.",
+      "A virtual environment is an isolated Python environment that allows you to manage dependencies for a specific project separately.",
+      "`pip` is the package installer for Python. You use it to install, upgrade, and remove packages from your environments. A common practice is to list a project's dependencies in a `requirements.txt` file."
+    ],
+    "codeExample": "# In your terminal:\n\n# 1. Create a virtual environment\n# python -m venv my_project_env\n\n# 2. Activate it\n# On Windows: .\\my_project_env\\Scripts\\activate\n# On Mac/Linux: source my_project_env/bin/activate\n\n# 3. Use pip to install packages\n# pip install requests\n\n# 4. Freeze dependencies to a file\n# pip freeze > requirements.txt\n\n# 5. Later, another developer can install all dependencies\n# pip install -r requirements.txt",
+    "quiz": [
+      {
+        "question": "What is the primary purpose of a virtual environment?",
+        "options": ["To make your code run faster", "To isolate project dependencies and avoid conflicts", "To write Python code", "To share your code online"],
+        "correctAnswer": "To isolate project dependencies and avoid conflicts"
+      },
+      {
+        "question": "What is `pip`?",
+        "options": ["A Python code editor", "A Python version manager", "The standard package installer for Python", "A type of virtual environment"],
+        "correctAnswer": "The standard package installer for Python"
+      },
+      {
+        "question": "Which command creates a virtual environment named `venv`?",
+        "options": ["pip create venv", "python -m venv venv", "virtualenv create venv", "python new venv"],
+        "correctAnswer": "python -m venv venv"
+      },
+      {
+        "question": "What is the common name for the file used to list a project's dependencies?",
+        "options": ["packages.json", "dependencies.yml", "pip.conf", "requirements.txt"],
+        "correctAnswer": "requirements.txt"
+      },
+      {
+        "question": "Which command installs all packages from a `requirements.txt` file?",
+        "options": ["pip install all", "pip requirements.txt", "pip install -r requirements.txt", "pip load requirements.txt"],
+        "correctAnswer": "pip install -r requirements.txt"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "26",
+    "title": "Introduction to Testing",
+    "description": "Understand the importance of testing and learn the basics of Python's `unittest` framework.",
+    "content": [
+      "Writing tests for your code is crucial for ensuring it works as expected and continues to work as you make changes.",
+      "Automated testing involves writing code that checks if your main application code behaves correctly.",
+      "Python's built-in `unittest` module provides a framework for creating and running tests. You write test cases as classes that inherit from `unittest.TestCase`, and test methods are methods whose names start with `test_`."
+    ],
+    "codeExample": "import unittest\n\n# A function to test\ndef add(a, b):\n    return a + b\n\n# A test case class\nclass TestAddFunction(unittest.TestCase):\n\n    def test_add_positive_numbers(self):\n        self.assertEqual(add(2, 3), 5)\n\n    def test_add_negative_numbers(self):\n        self.assertEqual(add(-1, -1), -2)\n\n# To run the tests (typically from the command line):\n# python -m unittest your_test_file.py\nprint(\"This example shows the structure of a test file using the unittest module.\")",
+    "quiz": [
+      {
+        "question": "Why is testing important in software development?",
+        "options": ["To make the code longer", "To ensure code quality and prevent bugs", "To slow down development", "To replace comments"],
+        "correctAnswer": "To ensure code quality and prevent bugs"
+      },
+      {
+        "question": "What is the name of Python's built-in testing framework?",
+        "options": ["pytest", "nose2", "unittest", "doctest"],
+        "correctAnswer": "unittest"
+      },
+      {
+        "question": "In `unittest`, test methods must start with...",
+        "options": ["assert_", "check_", "test_", "verify_"],
+        "correctAnswer": "test_"
+      },
+      {
+        "question": "Which `unittest` assertion checks if two values are equal?",
+        "options": ["assertTrue()", "assertIs()", "assertEqual()", "assertIn()"],
+        "correctAnswer": "assertEqual()"
+      },
+      {
+        "question": "Test case classes in `unittest` must inherit from which class?",
+        "options": ["unittest.Test", "unittest.Suite", "unittest.Case", "unittest.TestCase"],
+        "correctAnswer": "unittest.TestCase"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "27",
+    "title": "Debugging Python Code",
+    "description": "Learn techniques and tools for finding and fixing bugs in your code.",
+    "content": [
+      "Debugging is the process of finding and resolving defects or problems within a computer program.",
+      "The simplest form of debugging is using `print()` statements to inspect the state of variables at different points in your code.",
+      "A more powerful tool is a debugger, like Python's built-in `pdb` (Python Debugger). It allows you to pause your code's execution, inspect variables, and step through the code line by line."
+    ],
+    "codeExample": "import pdb\n\ndef my_function(x, y):\n    result = x + y\n    # Set a breakpoint\n    pdb.set_trace()\n    result = result * 2\n    return result\n\n# When you run this, the program will pause at the breakpoint\n# and you'll enter the pdb debugger in your terminal.\n# print(my_function(3, 4))\nprint(\"The pdb module allows interactive debugging.\")",
+    "quiz": [
+      {
+        "question": "What is debugging?",
+        "options": ["Writing new code", "The process of finding and fixing bugs", "Optimizing code speed", "Commenting code"],
+        "correctAnswer": "The process of finding and fixing bugs"
+      },
+      {
+        "question": "What is the simplest, most common debugging technique?",
+        "options": ["Using a professional debugger", "Asking a friend", "Using `print()` statements", "Rewriting the code"],
+        "correctAnswer": "Using `print()` statements"
+      },
+      {
+        "question": "What is Python's built-in debugger module called?",
+        "options": ["debug", "pdb", "pydebug", "debugger"],
+        "correctAnswer": "pdb"
+      },
+      {
+        "question": "What does `pdb.set_trace()` do?",
+        "options": ["It prints the call stack", "It ends the program", "It sets a breakpoint and starts the debugger", "It ignores all errors"],
+        "correctAnswer": "It sets a breakpoint and starts the debugger"
+      },
+      {
+        "question": "In a debugger, what does 'stepping through' the code mean?",
+        "options": ["Executing the code very slowly", "Executing the code line by line", "Jumping to the end of the function", "Deleting lines of code"],
+        "correctAnswer": "Executing the code line by line"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "28",
+    "title": "Python Best Practices (PEP 8)",
+    "description": "Learn about PEP 8, the official style guide for Python code, to write clean and readable code.",
+    "content": [
+      "PEP 8 is the official style guide for Python code. Following it makes your code more readable and consistent with other Python code.",
+      "Key guidelines include using 4 spaces for indentation (not tabs), limiting lines to 79 characters, using blank lines to separate functions and classes, and following naming conventions.",
+      "For example, function and variable names should be `snake_case` (e.g., `my_function`), while class names should be `CamelCase` (e.g., `MyClass`)."
+    ],
+    "codeExample": "# Good PEP 8 style\ndef calculate_sum(a, b):\n    return a + b\n\nclass MySampleClass:\n    def __init__(self, name):\n        self.name = name\n\n# Bad PEP 8 style\n# def CalculateSum( A,B ):\n#  return A+B\n#\n# class my_sample_class:\n#   def __init__(self,Name):\n#     self.name=Name\nprint(\"Following PEP 8 makes code easier to read.\")",
+    "quiz": [
+      {
+        "question": "What is PEP 8?",
+        "options": ["A Python enhancement proposal for a new feature", "The official style guide for Python code", "A library for code formatting", "A version of Python"],
+        "correctAnswer": "The official style guide for Python code"
+      },
+      {
+        "question": "According to PEP 8, what is the preferred way to indent code?",
+        "options": ["2 spaces", "Tabs", "4 spaces", "8 spaces"],
+        "correctAnswer": "4 spaces"
+      },
+      {
+        "question": "What is the recommended naming convention for functions and variables?",
+        "options": ["camelCase", "PascalCase", "kebab-case", "snake_case"],
+        "correctAnswer": "snake_case"
+      },
+      {
+        "question": "What is the recommended naming convention for classes?",
+        "options": ["camelCase", "PascalCase (or CamelCase)", "snake_case", "UPPER_CASE"],
+        "correctAnswer": "PascalCase (or CamelCase)"
+      },
+      {
+        "question": "Why is following a style guide like PEP 8 important?",
+        "options": ["It's required for the code to run", "It improves code readability and consistency", "It makes the code run faster", "It adds more features to the language"],
+        "correctAnswer": "It improves code readability and consistency"
+      }
+    ],
+    "pacing": "medium"
+  },
+  {
+    "id": "29",
+    "title": "Concurrency Basics",
+    "description": "An introduction to concurrency and how to use threads for parallel tasks.",
+    "content": [
+      "Concurrency is the ability of a program to run multiple tasks or parts of tasks in overlapping time periods. It doesn't necessarily mean they run at the same exact instant.",
+      "Python's `threading` module allows you to create and manage threads. A thread is a separate flow of execution.",
+      "This is useful for tasks that are I/O-bound (like waiting for a network request or reading a file), as it allows your program to do other work while waiting."
+    ],
+    "codeExample": "import threading\nimport time\n\ndef my_task(name):\n    print(f\"Thread {name}: starting\")\n    time.sleep(2) # Simulate a long task\n    print(f\"Thread {name}: finishing\")\n\n# Create threads\nthread1 = threading.Thread(target=my_task, args=(\"one\",))\nthread2 = threading.Thread(target=my_task, args=(\"two\",))\n\n# Start threads\nthread1.start()\nthread2.start()\n\nprint(\"Main: all threads running\")\n\n# Wait for threads to complete\nthread1.join()\nthread2.join()\n\nprint(\"Main: all done\")",
+    "quiz": [
+      {
+        "question": "What is concurrency?",
+        "options": ["Running code at the exact same time", "The ability to manage multiple tasks in overlapping time periods", "A way to write code faster", "A debugging technique"],
+        "correctAnswer": "The ability to manage multiple tasks in overlapping time periods"
+      },
+      {
+        "question": "Which module is used for threading in Python?",
+        "options": ["multiprocessing", "asyncio", "threading", "concurrent"],
+        "correctAnswer": "threading"
+      },
+      {
+        "question": "What does `thread.start()` do?",
+        "options": ["It runs the thread's target function immediately", "It prepares the thread to be run", "It starts the execution of the thread", "It stops the thread"],
+        "correctAnswer": "It starts the execution of the thread"
+      },
+      {
+        "question": "What is the purpose of `thread.join()`?",
+        "options": ["To combine two threads into one", "To stop the thread", "To wait for the thread to finish its execution", "To start the thread"],
+        "correctAnswer": "To wait for the thread to finish its execution"
+      },
+      {
+        "question": "Threading is most effective for which type of tasks?",
+        "options": ["CPU-bound tasks (heavy calculations)", "I/O-bound tasks (waiting for network/disk)", "All tasks equally", "Only for printing text"],
+        "correctAnswer": "I/O-bound tasks (waiting for network/disk)"
+      }
+    ],
+    "pacing": "fast"
+  },
+  {
+    "id": "30",
+    "title": "Final Project: Putting It All Together",
+    "description": "Apply everything you've learned to build a small, complete project.",
+    "content": [
+      "Congratulations on making it to the final lesson! It's time to combine all the concepts you've learned.",
+      "A great final project is a command-line application. For example, a simple contact book, a to-do list manager, or a weather app that fetches data from an API.",
+      "Think about the structure: How will you store the data (e.g., in a list of dictionaries)? What functions will you need (e.g., `add_contact`, `view_contacts`)? How will you handle user input and file I/O to save the data?"
+    ],
+    "codeExample": "# Project Idea: Simple To-Do List Manager\n\n# 1. Use a list to store to-do items.\n# 2. Write functions to:\n#    - view_tasks()\n#    - add_task()\n#    - mark_task_complete()\n#    - save_tasks_to_file()\n#    - load_tasks_from_file()\n# 3. Use a while loop to keep the program running and ask for user input.\n# 4. Use if/elif/else to handle the user's choices.\n# 5. Use try/except for error handling (e.g., file not found).\n\nprint(\"This is your chance to build something on your own!\")",
+    "quiz": [
+      {
+        "question": "Which data structure would be suitable for storing a list of contacts, where each contact is its own collection of info?",
+        "options": ["A simple list of strings", "A list of dictionaries", "A set", "A tuple"],
+        "correctAnswer": "A list of dictionaries"
+      },
+      {
+        "question": "To save your data so it persists after the program closes, you should use...",
+        "options": ["Variables", "File I/O", "Lambda functions", "Decorators"],
+        "correctAnswer": "File I/O"
+      },
+      {
+        "question": "What kind of loop would be best for the main part of a command-line application that waits for user commands?",
+        "options": ["A for loop over a range", "A while loop that runs until the user chooses to quit", "A map function", "A recursive function"],
+        "correctAnswer": "A while loop that runs until the user chooses to quit"
+      },
+      {
+        "question": "If your app gets data from an online weather service, what are you using?",
+        "options": ["A database", "A virtual environment", "An API", "A decorator"],
+        "correctAnswer": "An API"
+      },
+      {
+        "question": "What is the most important part of the final project?",
+        "options": ["Making it look beautiful", "Writing it in the fewest lines of code", "Applying the concepts you've learned to solve a problem", "Using every single feature from the course"],
+        "correctAnswer": "Applying the concepts you've learned to solve a problem"
+      }
+    ],
+    "pacing": "fast"
+  }
+]
+}
