@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/github/stars/yehia-mohammed-developer/Python-Prep?style=social" alt="GitHub Stars">
   </p>
   <p>
-    <a href="https://python-prep.web.app/" target="_blank"><strong>View Live Demo »</strong></a>
+<a href="https://python-prep.web.app/" target="_blank"><strong>View Live Demo »</strong></a>
   </p>
 </div>
 
