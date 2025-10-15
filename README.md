@@ -1,6 +1,12 @@
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yehia-mohammed-developer/Python-Prep/main/public/PythonPrep-Readme-Cover.png" alt="Python Prep Cover Image" style="border-radius: 12px; width: 100%; max-width: 900px;"/>
+  <img 
+  src="https://github.com/user-attachments/assets/61cb3c12-601a-4dc7-980b-3f94f96bb8a1" 
+  alt="Python Prep Cover Image" 
+  width="100%" 
+  style="border-radius: 12px; max-width: 900px;"
+/>
+
   <h1>Python Prep: Your Interactive AI-Powered Learning Platform</h1>
   <p>
     <strong>A comprehensive, step-by-step guide to mastering Python. Featuring a structured curriculum, interactive quizzes, and AI-powered assistance.</strong>
